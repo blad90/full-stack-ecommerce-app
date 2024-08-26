@@ -18,12 +18,20 @@
     "importHelpers": true,
     "target": "es2020",
     "module": "es2020",
-    "lib": ["es2020", "dom"]
+    "lib": ["es2020", "dom"],
+    "esModuleInterop": true,
+    "paths": {
+      "okta": [
+        "./node_modules/@okta/okta-signin-widget/types/packages/@okta/courage-dist/types/index.d.ts"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
     "strictInputAccessModifiers": true,
-    "strictTemplates": true
+    "strictTemplates": true,
+    "allowSyntheticDefaultImports": true,
+    "skipLibCheck": true
   }
 }

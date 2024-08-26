@@ -23,6 +23,7 @@
     "@okta/okta-angular": "^5.2.0",
     "@okta/okta-auth-js": "^6.4.0",
     "@okta/okta-signin-widget": "^6.2.0",
+    "@types/backbone": "^1.4.20",
     "bootstrap": "^5.2.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
